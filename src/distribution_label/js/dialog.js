@@ -53,7 +53,7 @@ var ExampleDialog = {
 		}
 	},
 
-	apply : function() {
+	insert : function() {
 		var f = document.forms[0];
 		var ed = tinyMCEPopup.editor;
 		var dom = ed.dom;
