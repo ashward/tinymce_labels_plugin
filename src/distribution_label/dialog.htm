@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>{#distribution_label_dlg.title}</title>
+	<script type="text/javascript" src="../../tiny_mce_popup.js?v={tinymce_version}"></script>
+	<script type="text/javascript" src="js/dialog.js?v={tinymce_version}"></script>
+</head>
+<body>
+
+<h1>{#distribution_label_dlg.title}</h1>
+<form onsubmit="ExampleDialog.insert();return false;" action="#">
+	<p><label for="level">{#distribution_label_dlg.level}: <select id="level" name="level">
+		<option>NOT PROTECTED</option>
+		<option>STAFF</option>
+		<option>MANAGEMENT</option>
+		<option>DIRECTORS</option>
+	</select></label></p>
+
+	<div class="mceActionPanel">
+		<input type="button" id="apply" name="apply" value="{#apply}" onclick="ExampleDialog.apply();" />
+		<input type="button" id="cancel" name="cancel" value="{#cancel}" onclick="tinyMCEPopup.close();" />
+	</div>
+</form>
+
+</body>
+</html>
