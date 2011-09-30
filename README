@@ -1,0 +1,17 @@
+Installation
+------------
+* Copy the folder src/distribution_label to the plugins directory of your tinymce installation
+* Add "distribution_label" to the list of plugins in your tinymce configuration
+* add the following buttons to your tinymce toolbar configuration:
+  - distribution_label_new
+  - distribution_label_edit
+  
+Refresh the page and you should see the two new buttons
+
+Issues
+------
+For the current list of issues plase see the issue tracker in github https://github.com/ashward/tinymce_labels_plugin/issues
+
+License
+-------
+This software is released under the Lesser GPL v3 license. See the LICENSE file
